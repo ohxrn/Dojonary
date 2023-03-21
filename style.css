@@ -1,0 +1,118 @@
+.header {
+    
+    background-color: rgb(246, 246, 246);
+    display: flex;
+}
+.blue {
+    background-color: aqua;
+}
+.text {
+    margin: 15px;
+}
+.buttonRight {
+    background-color: rgb(58, 247, 115);
+    min-width: 160px;
+    min-height: 40px;
+}
+.buttonFin {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 19px;
+}
+.box1 {
+    background-color: rgb(255, 255, 255);
+    
+    margin: 40px;
+    display: flex;
+}
+.farBox {
+    margin: 40px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.tester {
+    margin: 20px;
+}
+.border {
+    
+    border:10px solid rgb(223, 223, 223);
+    border-radius: 10px;
+}
+.box2 {
+    background-color: rgb(255, 255, 255);
+    margin: 40px;
+    display: flex;
+}
+.boxLeft {
+    margin-left: 25px;
+    margin-bottom: 20px;
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+}
+.boxRight {
+    flex:2.5;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+}
+
+.box2 {
+    background-color: rgb(255, 255, 255);
+    
+    margin: 40px;
+}
+
+.headerLeft {
+    flex:1;
+    background-color:  rgb(246, 246, 246);
+    box-sizing: border-box;
+    justify-content: center;
+}
+.adjustment {
+    text-align: center;
+}
+input {
+    min-width: 330px;
+    
+}
+button {
+    background-color: yellow;
+    min-width: 100px;
+    min-height: 45px;
+    box-shadow: 4px 4px;
+    border-radius: 4px;
+}
+.headerMid {
+    flex:2;
+    background-color:  rgb(246, 246, 246);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.headerRight {
+    display: flex;
+    flex:1;
+    background-color:  rgb(246, 246, 246);
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    min-height: 1000px;
+}
+
+.leftContainer {
+    margin: 40px;
+    
+    flex: 1.6;
+    
+    background-color: rgb(255, 255, 255);
+}
+
+.rightContainer {
+    margin: 40px;
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+
+}
